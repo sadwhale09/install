@@ -7,9 +7,15 @@ Programs to install on fresh desktop, server, container
 3. git clone this repo
 4. sudo apt/dnf install $(cat install-list)
 
-### packages:
+### must-have packages:
 - [ ] man
 - [ ] vim
 - [ ] tmux
-- [ ] ssh
 - [ ] htop
+- [ ] ssh
+- [ ] vsftpd
+
+### optional packages:
+- [ ] neofetch
+- [ ] ranger
+- [ ] fzf
